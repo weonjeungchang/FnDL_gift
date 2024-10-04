@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.set_page_config(page_title="FnDL창립기념", page_icon="💯")
+
 st.header("[FnDataLab] 2024.12.06 창립기념일", divider='rainbow')
 st.error("기념 상품 증정 !!! 두둥~~~")
 st.divider()
