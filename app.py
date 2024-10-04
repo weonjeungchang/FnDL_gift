@@ -43,7 +43,7 @@ selected_product = st.radio(
     "상품 선택 :",
     [product['name'] for product in products]  # 상품 이름을 라디오 버튼에 표시
 )
-
+st.divider()
 # 각 상품에 대한 레이아웃 설정
 for product in products:
     # 라디오 버튼에서 선택한 상품에 대한 정보를 비교하여 출력
